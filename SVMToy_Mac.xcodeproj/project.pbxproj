@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9C73F4E1AF6039700C7F72E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C73F4D1AF6039700C7F72E /* main.m */; };
+		C9C73F501AF6039700C7F72E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9C73F4F1AF6039700C7F72E /* Images.xcassets */; };
+		C9C73F531AF6039700C7F72E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9C73F511AF6039700C7F72E /* MainMenu.xib */; };
+		C9C73F6C1AF6055000C7F72E /* svm.mm in Sources */ = {isa = PBXBuildFile; fileRef = C9C73F691AF6055000C7F72E /* svm.mm */; };
+		C9C73F6D1AF6055000C7F72E /* SVMView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C73F6B1AF6055000C7F72E /* SVMView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9C73F591AF6039700C7F72E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9C73F3D1AF6039700C7F72E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9C73F441AF6039700C7F72E;
+			remoteInfo = SVMToy_Mac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9C73F451AF6039700C7F72E /* SVMToy_Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVMToy_Mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C73F491AF6039700C7F72E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9C73F4D1AF6039700C7F72E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9C73F4F1AF6039700C7F72E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C9C73F521AF6039700C7F72E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C9C73F581AF6039700C7F72E /* SVMToy_MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SVMToy_MacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C73F681AF6055000C7F72E /* svm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svm.h; sourceTree = "<group>"; };
+		C9C73F691AF6055000C7F72E /* svm.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = svm.mm; sourceTree = "<group>"; };
+		C9C73F6A1AF6055000C7F72E /* SVMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMView.h; sourceTree = "<group>"; };
+		C9C73F6B1AF6055000C7F72E /* SVMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9C73F421AF6039700C7F72E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C73F551AF6039700C7F72E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9C73F3C1AF6039700C7F72E = {
+			isa = PBXGroup;
+			children = (
+				C9C73F471AF6039700C7F72E /* SVMToy_Mac */,
+				C9C73F461AF6039700C7F72E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9C73F461AF6039700C7F72E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9C73F451AF6039700C7F72E /* SVMToy_Mac.app */,
+				C9C73F581AF6039700C7F72E /* SVMToy_MacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9C73F471AF6039700C7F72E /* SVMToy_Mac */ = {
+			isa = PBXGroup;
+			children = (
+				C9C73F681AF6055000C7F72E /* svm.h */,
+				C9C73F691AF6055000C7F72E /* svm.mm */,
+				C9C73F6A1AF6055000C7F72E /* SVMView.h */,
+				C9C73F6B1AF6055000C7F72E /* SVMView.m */,
+				C9C73F4F1AF6039700C7F72E /* Images.xcassets */,
+				C9C73F511AF6039700C7F72E /* MainMenu.xib */,
+				C9C73F481AF6039700C7F72E /* Supporting Files */,
+			);
+			path = SVMToy_Mac;
+			sourceTree = "<group>";
+		};
+		C9C73F481AF6039700C7F72E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9C73F491AF6039700C7F72E /* Info.plist */,
+				C9C73F4D1AF6039700C7F72E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9C73F441AF6039700C7F72E /* SVMToy_Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C73F621AF6039700C7F72E /* Build configuration list for PBXNativeTarget "SVMToy_Mac" */;
+			buildPhases = (
+				C9C73F411AF6039700C7F72E /* Sources */,
+				C9C73F421AF6039700C7F72E /* Frameworks */,
+				C9C73F431AF6039700C7F72E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVMToy_Mac;
+			productName = SVMToy_Mac;
+			productReference = C9C73F451AF6039700C7F72E /* SVMToy_Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9C73F571AF6039700C7F72E /* SVMToy_MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C73F651AF6039700C7F72E /* Build configuration list for PBXNativeTarget "SVMToy_MacTests" */;
+			buildPhases = (
+				C9C73F541AF6039700C7F72E /* Sources */,
+				C9C73F551AF6039700C7F72E /* Frameworks */,
+				C9C73F561AF6039700C7F72E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9C73F5A1AF6039700C7F72E /* PBXTargetDependency */,
+			);
+			name = SVMToy_MacTests;
+			productName = SVMToy_MacTests;
+			productReference = C9C73F581AF6039700C7F72E /* SVMToy_MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9C73F3D1AF6039700C7F72E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Swordow;
+				TargetAttributes = {
+					C9C73F441AF6039700C7F72E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					C9C73F571AF6039700C7F72E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = C9C73F441AF6039700C7F72E;
+					};
+				};
+			};
+			buildConfigurationList = C9C73F401AF6039700C7F72E /* Build configuration list for PBXProject "SVMToy_Mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9C73F3C1AF6039700C7F72E;
+			productRefGroup = C9C73F461AF6039700C7F72E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9C73F441AF6039700C7F72E /* SVMToy_Mac */,
+				C9C73F571AF6039700C7F72E /* SVMToy_MacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9C73F431AF6039700C7F72E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C73F501AF6039700C7F72E /* Images.xcassets in Resources */,
+				C9C73F531AF6039700C7F72E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C73F561AF6039700C7F72E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9C73F411AF6039700C7F72E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C73F6D1AF6055000C7F72E /* SVMView.m in Sources */,
+				C9C73F6C1AF6055000C7F72E /* svm.mm in Sources */,
+				C9C73F4E1AF6039700C7F72E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C73F541AF6039700C7F72E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9C73F5A1AF6039700C7F72E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9C73F441AF6039700C7F72E /* SVMToy_Mac */;
+			targetProxy = C9C73F591AF6039700C7F72E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9C73F511AF6039700C7F72E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9C73F521AF6039700C7F72E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9C73F601AF6039700C7F72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C9C73F611AF6039700C7F72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C9C73F631AF6039700C7F72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SVMToy_Mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9C73F641AF6039700C7F72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SVMToy_Mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C9C73F661AF6039700C7F72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SVMToy_MacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SVMToy_Mac.app/Contents/MacOS/SVMToy_Mac";
+			};
+			name = Debug;
+		};
+		C9C73F671AF6039700C7F72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SVMToy_MacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SVMToy_Mac.app/Contents/MacOS/SVMToy_Mac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9C73F401AF6039700C7F72E /* Build configuration list for PBXProject "SVMToy_Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C73F601AF6039700C7F72E /* Debug */,
+				C9C73F611AF6039700C7F72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C73F621AF6039700C7F72E /* Build configuration list for PBXNativeTarget "SVMToy_Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C73F631AF6039700C7F72E /* Debug */,
+				C9C73F641AF6039700C7F72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9C73F651AF6039700C7F72E /* Build configuration list for PBXNativeTarget "SVMToy_MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C73F661AF6039700C7F72E /* Debug */,
+				C9C73F671AF6039700C7F72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9C73F3D1AF6039700C7F72E /* Project object */;
+}

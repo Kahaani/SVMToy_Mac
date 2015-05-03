@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>56140EE6-9B6B-4671-82E1-685EA4C98592</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SVMToy_Mac</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C36F95B44B2504E0AC7A6C8FD76AC87B38E09971</key>
+		<string>https://github.com/swordow/SVMToy_Mac.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SVMToy_Mac.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C36F95B44B2504E0AC7A6C8FD76AC87B38E09971</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/swordow/SVMToy_Mac.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C36F95B44B2504E0AC7A6C8FD76AC87B38E09971</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C36F95B44B2504E0AC7A6C8FD76AC87B38E09971</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SVMToy_Mac</string>
+		</dict>
+	</array>
+</dict>
+</plist>
