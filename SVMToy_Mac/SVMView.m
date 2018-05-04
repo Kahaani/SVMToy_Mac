@@ -336,6 +336,15 @@
 {
   // guard
   if(pointCount == 0) return;
+  { // clear
+    NSGraphicsContext* bgc = [NSGraphicsContext graphicsContextWithBitmapImageRep:buffer];
+    if (!bgc) NSLog(@"BGC failed\n");
+    [NSGraphicsContext setCurrentContext:bgc];
+    NSColor *w = [NSColor blackColor];
+    [w set];
+    NSRectFill([self bounds]);
+    [self draw_all_points];
+  }
   timer = [NSTimer scheduledTimerWithTimeInterval:(1.0/60.f) target:self selector:@selector(updateView:) userInfo:nil repeats:YES];
   [[NSRunLoop currentRunLoop] addTimer:timer forMode:NSModalPanelRunLoopMode];
   [[NSRunLoop currentRunLoop] addTimer:timer forMode:NSEventTrackingRunLoopMode];
